@@ -33,3 +33,18 @@ nav {
   grid-template-columns: repeat(3, 10vw);
   font-family: "Roboto", sans-serif;
 }
+
+.box {
+  border: 2px solid black;
+  font-size: 7vw;
+  display:flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.box:hover {
+  background-color: rgb(175, 146, 175);
+}
+.gameinfo{
+  padding: 0 34px; 
+}
