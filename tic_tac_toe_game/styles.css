@@ -22,7 +22,7 @@ nav {
 }
 
 .gameContainer {
-  background-color: rgb(228, 228, 19);
+  /* background-color: rgb(228, 228, 19); */
   display: flex;
   margin: auto;
   justify-content: center;
@@ -39,18 +39,36 @@ nav {
 .box {
   border: 2px solid black;
   font-size: 7vw;
-  display:flex;
+  display: flex;
   justify-content: center;
   cursor: pointer;
 }
 
 .box:hover {
-  background-color: rgb(175, 146, 175);
+  background-color: rgb(224, 202, 224);
 }
-.gameinfo{
-  padding: 0 34px; 
+
+.gameinfo {
+  padding: 0 34px;
   font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
 }
-.imgbox{
-  display:none;
+
+.imgbox {
+  display: none;
+}
+
+.bb-0{
+  border-bottom: 0;
+}
+
+.br-0{
+  border-right: 0;
+}
+
+.bt-0{
+  border-top: 0;
+}
+
+.bl-0{
+  border-left: 0;
 }
