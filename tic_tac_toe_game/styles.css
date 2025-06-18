@@ -17,7 +17,7 @@ nav {
   height: 65px;
   display: flex;
   align-items: center;
-  padding: 0 22px; 
+  padding: 0 22px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -27,6 +27,7 @@ nav {
   margin: auto;
   justify-content: center;
   margin-top: 40px;
+  flex-wrap: wrap;
 }
 
 .container {
@@ -53,8 +54,14 @@ nav {
   font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.imgbox {
-  display: none;
+.info {
+  font-size: 20px;
+}
+
+.imgbox img {
+  /* display: none;*/
+  width: 0;
+  transition: width ls ease-in-out;
 }
 
 .bb-0 {
@@ -71,4 +78,23 @@ nav {
 
 .bl-0 {
   border-left: 0;
+}
+
+#reset {
+  margin: 0 23px;
+  padding: 5px;
+  background-color: rgb(228, 209, 185);
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+}
+
+@media screen and (max-width : 950px) {
+  .gameContainer {
+    flex-wrap: wrap;
+  }
+  .gameinfo {
+    margin-top: 34px;
+  }
 }
