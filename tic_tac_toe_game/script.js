@@ -1,6 +1,6 @@
 console.log("welcome to tic tac toe");
-let bg_music = new Audio("/assets/bgmusic.mp3");
-let move_music = new Audio("/assets/move-audio.mp3");
+let bg_music = new Audio("assets/bgmusic.mp3");
+let move_music = new Audio("assets/move-audio.mp3");
 let turn = "X";
 
 // changes turns
@@ -12,7 +12,7 @@ changeTurn = () => {
 const checkWin = () => {
   let boxtexts = document.getElementsByClassName('boxText');
 
-  let wins = [
+  let wins = [ 
     [0, 1, 2],
     [3, 4, 5],
     [6, 7, 8],
